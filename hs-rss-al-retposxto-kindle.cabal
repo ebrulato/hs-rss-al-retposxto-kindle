@@ -1,0 +1,35 @@
+cabal-version:       >=1.10
+-- Initial package description 'hs-rss-al-retposxto-kindle.cabal' generated
+--  by 'cabal init'.  For further documentation, see
+-- http://haskell.org/cabal/users-guide/
+
+name:                hs-rss-al-retposxto-kindle
+version:             0.1.0.0
+-- synopsis:
+-- description:
+-- bug-reports:
+-- license:
+license-file:        LICENSE
+author:              ebrulato
+maintainer:          eric.brulatout@gmail.com
+-- copyright:
+-- category:
+build-type:          Simple
+extra-source-files:  CHANGELOG.md, README.md
+
+executable hs-rss-al-retposxto-kindle
+  main-is:             Main.hs
+  -- other-modules:
+  -- other-extensions:
+  build-depends:       base >=4.13 && <4.14,
+                       network <3.0,
+                       HaskellNet >=0.3 && <0.6,
+                       HaskellNet-SSL,
+                       bytestring,
+                       text,
+                       html-parse,
+                       wreq,
+                       lens,
+                       mime
+  -- hs-source-dirs:
+  default-language:    Haskell2010
