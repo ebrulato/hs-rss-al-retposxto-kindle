@@ -30,6 +30,8 @@ executable hs-rss-al-retposxto-kindle
                        html-parse,
                        wreq,
                        lens,
-                       mime
+                       mime,
+                       http-types,
+                       http-client
   -- hs-source-dirs:
   default-language:    Haskell2010
